@@ -7,20 +7,28 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "withoutCredentials": true
+        "autoIncrement": true
+      },
+      "ios": {
+        "buildConfiguration": "Release"
       }
     },
     "preview": {
       "android": {
-        "buildType": "apk",
-        "withoutCredentials": true
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
       }
     },
     "development": {
       "android": {
         "buildType": "apk",
         "developmentClient": true
+      },
+      "ios": {
+        "developmentClient": true,
+        "simulator": true
       }
     }
   },
