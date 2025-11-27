@@ -1,16 +1,1 @@
-{
-  "build": {
-    "preview": {
-      "android": {
-        "buildType": "apk",
-        "withoutCredentials": true
-      }
-    },
-    "production": {
-      "android": {
-        "buildType": "apk",
-        "withoutCredentials": true
-      }
-    }
-  }
-}
+
