@@ -1,11 +1,10 @@
 {
-  "name": "mi-bloc-de-notas",
+  "name": "bloc-de-notas",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "build": "eas build --platform android --profile preview"
+    "android": "expo start --android"
   },
   "dependencies": {
     "expo": "~49.0.0",
