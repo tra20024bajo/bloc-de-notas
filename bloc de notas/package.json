@@ -12,12 +12,12 @@
     "build:prod": "eas build --platform android --profile production"
   },
   "dependencies": {
-    "expo": "~49.0.0",
-    "expo-file-system": "~15.4.0",
-    "expo-sharing": "~11.3.0",
-    "expo-sqlite": "~11.3.0",
+    "expo": "~50.0.0",
+    "expo-file-system": "~16.0.0",
+    "expo-sharing": "~12.0.0",
+    "expo-sqlite": "~13.0.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.73.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
