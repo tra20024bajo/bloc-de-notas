@@ -4,7 +4,8 @@
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android"
+    "android": "expo start --android",
+    "build": "eas build --platform android --profile preview"
   },
   "dependencies": {
     "expo": "~49.0.0",
