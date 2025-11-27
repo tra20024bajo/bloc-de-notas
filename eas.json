@@ -7,7 +7,8 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "autoIncrement": true
+        "gradleCommand": ":app:assembleRelease",
+        "withoutCredentials": true
       },
       "ios": {
         "buildConfiguration": "Release"
